@@ -1,0 +1,522 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.wrapper {
+  width: 96%;
+  max-width: 1025px;
+  margin: 0 auto;
+}
+
+header #menu-button {
+  display: none;
+}
+
+header {
+  background: #4d99a5;
+  padding: 15px 0;
+}
+
+header h1 {
+  background: url("https://www.ncuindia.edu/wp-content/themes/ncuindia_starter/./images/logo.svg")
+    no-repeat;
+  background-size: 180px 31px;
+  text-indent: -10000px;
+  margin: 0;
+  width: 180px;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header ul li {
+  list-style: none;
+  float: left;
+  margin-left: 22px;
+  margin-top: 10px;
+  -webkit-transition: border 0.4s ease-in-out;
+  -moz-transition: border 0.4s ease-in-out;
+  transition: border 0.4s ease-in-out;
+  border-bottom: 1px solid #4d99a5;
+}
+
+header ul li:hover {
+  border-bottom: 1px solid #ccc;
+}
+
+header ul li:not(:first-child)::before {
+  content: "\/";
+  color: #fff;
+  padding-right: 22px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* -------------- MAIN BANNER -------------*/
+
+#main-banner {
+  background: url("https://github.com/ajayrexluega/business-landing-page/blob/master/images/banner.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: 100% 100%, cover;
+  height: 475px;
+}
+
+#main-banner h1 {
+  color: #e4e4e4;
+  /*width: 50%;*/
+  text-align: center;
+  font-size: 30pt;
+  margin: 0 auto 45px auto;
+  position: relative;
+  top: 130px;
+}
+
+#main-banner a {
+  text-decoration: none;
+  color: #cdcdd0;
+}
+
+#main-banner .readMore-button {
+  margin: 0 auto;
+  width: 200px;
+  position: relative;
+  top: 130px;
+}
+
+#main-banner .readMore-button span {
+  border: 1px solid #afb1b4;
+  border-radius: 5px;
+  font-size: 18pt;
+  padding: 0 48px;
+}
+
+#main-banner .readMore-button span:hover {
+  background: #69728c;
+  opacity: 0.5;
+}
+
+#main-banner .slider-button {
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+
+#main-banner .slider-button ul {
+  list-style: none;
+  padding: 0;
+}
+
+.slider-button li {
+  width: 9px;
+  height: 9px;
+  margin: 0 0.2rem;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: #ffffff;
+  -webkit-transition: background 0.4s ease-in-out;
+  -moz-transition: background 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out;
+}
+
+.slider-button li:hover {
+  background: #69728c;
+}
+
+.slider-button .current li {
+  background: #69728c;
+}
+
+/*--------- BUSINESS SECTION --------------*/
+
+#business {
+  color: #4c505d;
+}
+
+#business h2 {
+  font-size: 30pt;
+  text-align: center;
+  width: 90%;
+  max-width: 780px;
+  margin: 80px auto 50px auto;
+  line-height: 49pt;
+}
+
+#business p {
+  font-size: 14pt;
+  line-height: 22pt;
+  text-align: center;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#business .business-icons {
+  width: 420px;
+  margin: 0 auto;
+}
+
+#business ul {
+  list-style: none;
+}
+
+#business ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#business ul li {
+  float: left;
+  padding-top: 70px !important;
+  padding-bottom: 80px !important;
+}
+
+#business ul li:nth-of-type(even) {
+  padding: 0 30.48% 0 30.48%;
+}
+
+/*--------------- QUOTE SECTION ------------ */
+
+#quote {
+  background: #00d089;
+}
+
+#quote h1 {
+  background: url("https://github.com/ajayrexluega/business-landing-page/blob/master/images/profile-picture.png?raw=true")
+    no-repeat;
+  text-indent: -10000px;
+  text-align: center;
+  height: 135px;
+  width: 135px;
+  margin: 0 auto 65px auto;
+  position: relative;
+  top: 80px;
+}
+
+#quote h2 {
+  position: relative;
+  left: 60%;
+  top: -105px;
+  color: #e4e4e4;
+  width: 110px;
+  font-size: 26pt;
+}
+
+#quote span img {
+  position: relative;
+  left: 60%;
+  top: -93px;
+}
+
+#quote p {
+  color: #ffffff;
+  padding-left: 85px;
+  font-size: 18pt;
+  line-height: 32pt;
+  margin-top: -50px;
+  padding-bottom: 100px;
+}
+
+/*----------- CONTACT ------------*/
+
+#contact {
+  background: url("https://github.com/ajayrexluega/business-landing-page/blob/master/images/map.jpg?raw=true")
+    no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+#contact .contact-form {
+  margin: 0 auto;
+  -webkit-border-radius: 215px;
+  -moz-border-radius: 215px;
+  border-radius: 215px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.851;
+  position: relative;
+  top: 60px;
+  width: 439px;
+  height: 439px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
+}
+
+#contact .contact-form input:first-child {
+  margin: 113px auto 0 auto;
+}
+
+#contact .contact-form input {
+  border: solid 1px #d8d8d8;
+  background-color: rgb(255, 255, 255);
+  width: 279px;
+  height: 35px;
+  margin-left: 80px !important;
+  padding-left: 18px;
+  margin-bottom: 18px !important;
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+#contact .contact-form textarea {
+  border: solid 1px #d8d8d8;
+  background-color: rgb(255, 255, 255);
+  width: 279px;
+  height: 84px;
+  margin-left: 80px !important;
+  padding-left: 18px;
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+#contact a {
+  margin-left: 187px;
+}
+
+#contact a img {
+  margin-top: 30px;
+}
+
+/*----------- FOOTER STYLES --------------*/
+
+#footer {
+  background: #00d089;
+  padding: 10px;
+}
+
+#footer p {
+  font-size: 14pt;
+  text-align: center;
+  color: #ffffff;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*------------- MEDIA QUERIES STYLES ----------------*/
+
+@media screen and (min-width: 476px) {
+  header nav {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  /*---------- HEADER STYLES -------------*/
+
+  header nav {
+    display: none;
+  }
+
+  header #menu-button h4 {
+    background: url("https://www.ncuindia.edu/wp-content/themes/ncuindia_starter/./images/logo.svg")
+      no-repeat;
+    text-indent: -10000px;
+  }
+
+  .showMenu {
+    display: block;
+  }
+
+  header #menu-button {
+    float: right;
+    display: block !important;
+    cursor: pointer;
+  }
+
+  header nav {
+    width: 100%;
+  }
+
+  header nav ul li {
+    float: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  header ul li:not(:first-child)::before {
+    content: none;
+  }
+  /*--------- BUSINESS SECTION --------------*/
+  #business h2 {
+    font-size: 25pt;
+    line-height: 35pt;
+  }
+
+  #business p {
+    font-size: 12pt;
+    line-height: 20pt;
+  }
+
+  #business .business-icons {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  #business ul li {
+    padding-top: 50px !important;
+    padding-bottom: 60px !important;
+  }
+
+  #business ul li:nth-of-type(even) {
+    padding: 0 20% 0 20%;
+  }
+
+  /*--------------- QUOTE SECTION ------------ */
+  #quote h2 {
+    left: 70%;
+    width: 100px;
+    font-size: 18pt;
+  }
+
+  #quote span img {
+    width: 20%;
+    height: 20%;
+    left: 70%;
+  }
+
+  #quote p {
+    padding-left: 45px;
+    font-size: 14pt;
+    line-height: 28pt;
+    padding-bottom: 80px;
+  }
+
+  /*----------- CONTACT ------------*/
+
+  #contact {
+    height: 550px;
+  }
+
+  #contact .contact-form {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    width: 359px;
+    height: 359px;
+  }
+
+  #contact .contact-form input:first-child {
+    margin: 73px auto 0 auto;
+  }
+
+  #contact .contact-form input {
+    width: 219px;
+    height: 25px;
+    margin-left: 55px !important;
+    padding-left: 18px;
+    margin-bottom: 18px !important;
+  }
+
+  #contact .contact-form textarea {
+    width: 219px;
+    height: 64px;
+    margin-left: 55px !important;
+    padding-left: 18px;
+  }
+
+  #contact a {
+    margin-left: 147px;
+  }
+
+  #contact a img {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /*----------- CONTACT ------------*/
+
+  #contact {
+    height: 500px;
+  }
+
+  #contact .contact-form {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    width: 280px;
+    height: 280px;
+  }
+
+  #contact .contact-form input:first-child {
+    margin: 53px auto 0 auto;
+  }
+
+  #contact .contact-form input {
+    width: 170px;
+    height: 20px;
+    margin-left: 48px !important;
+    padding-left: 18px;
+    margin-bottom: 12px !important;
+  }
+
+  #contact .contact-form textarea {
+    width: 170px;
+    height: 60px;
+    margin-left: 50px !important;
+    padding-left: 18px;
+  }
+
+  #contact a {
+    margin-left: 117px;
+  }
+
+  #contact a img {
+    margin-top: 15px;
+    width: 46px;
+    height: 47px;
+  }
+
+  /*-------- QUOTE SECTION ----------*/
+
+  #quote h2 {
+    left: 78%;
+    width: 60px;
+    font-size: 15pt;
+  }
+
+  #quote span img {
+    width: 18%;
+    height: 18%;
+    left: 78%;
+  }
+
+  /*--------- BUSINESS SECTION --------------*/
+
+  #business .business-icons {
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  #business ul li {
+    padding-top: 50px !important;
+    padding-bottom: 60px !important;
+  }
+
+  #business ul li:nth-of-type(even) {
+    padding: 0 20% 0 20%;
+  }
+}
