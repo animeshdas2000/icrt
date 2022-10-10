@@ -7,7 +7,7 @@
 .wrapper {
   width: 96%;
   max-width: 1025px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 header #menu-button {
@@ -15,14 +15,14 @@ header #menu-button {
 }
 
 header {
-  background: #4d99a5;
+  background: #ff991c;
   padding: 15px 0;
 }
 
 header h1 {
   background: url("https://www.ncuindia.edu/wp-content/themes/ncuindia_starter/./images/logo.svg")
     no-repeat;
-  background-size: 180px 31px;
+  background-size: 180px 50px;
   text-indent: -10000px;
   margin: 0;
   width: 180px;
@@ -68,16 +68,17 @@ header ul li a {
 /* -------------- MAIN BANNER -------------*/
 
 #main-banner {
-  background: url("https://github.com/ajayrexluega/business-landing-page/blob/master/images/banner.jpg?raw=true");
+  background: url("https://images.shiksha.com/mediadata/images/1589879855phpkgZXOg.jpeg");
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
   height: 475px;
 }
 
 #main-banner h1 {
-  color: #e4e4e4;
+  color: #611616;
   /*width: 50%;*/
   text-align: center;
+
   font-size: 30pt;
   margin: 0 auto 45px auto;
   position: relative;
@@ -142,7 +143,11 @@ header ul li a {
 }
 
 /*--------- BUSINESS SECTION --------------*/
+.about {
+  margin: 2rem 10rem;
 
+  text-align: center;
+}
 #business {
   color: #4c505d;
 }
@@ -295,7 +300,7 @@ header ul li a {
 /*----------- FOOTER STYLES --------------*/
 
 #footer {
-  background: #00d089;
+  background: #ff9f2a;
   padding: 10px;
 }
 
